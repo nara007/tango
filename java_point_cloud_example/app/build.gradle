@@ -43,4 +43,8 @@ dependencies {
     compile (name: 'tango_support_java_lib', ext: 'aar')
     compile 'org.rajawali3d:rajawali:1.0.325@aar'
     compile 'com.android.support:appcompat-v7:23.0.0'
+    // https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+    compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.7.0'
+
+
 }

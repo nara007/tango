@@ -209,6 +209,7 @@ public class HelloVideoActivity extends Activity {
             @Override
             public void onPointCloudAvailable(final TangoPointCloudData pointCloudData) {
                 // We are not using onPointCloudAvailable for this app.
+                System.out.println("point cloud");
             }
 
             @Override

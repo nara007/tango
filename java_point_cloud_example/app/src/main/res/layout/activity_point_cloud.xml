@@ -103,4 +103,24 @@
         android:text="@string/third_person"
         android:onClick="onThirdPersonClicked"/>
 
+     <Button
+         android:id="@+id/save"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:layout_toLeftOf="@+id/third_person_button"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="5dp"
+         android:layout_marginRight="5dp"
+         android:paddingRight="5dp"
+         android:text="save"
+         android:onClick="onSaveClicked" />
+
+    <SurfaceView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="116dp"
+        android:id="@+id/surfaceView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
